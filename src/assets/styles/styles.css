@@ -1,0 +1,36 @@
+.bannerContainer {
+  overflow: hidden;
+  background: url(../images/yoda-wewa-page-banner.jpg) no-repeat;
+  height: 700px;
+ 
+  
+}
+.bannerContainer input,.bannerContainer select{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+.bannerContainer input:focus,.bannerContainer select:focus{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  box-shadow: none;
+}
+.bannerContainer input::before{
+  content: attr(placeholder);
+}
+/* .bannerContainer img {
+  object-fit: cover;
+  width: 100%;
+} */
+.main-title {
+  font-family: "Playfair Display", serif !important;
+}
+.contentComp {
+  margin-top: 80px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+.footerComp {
+  box-sizing: border-box !important;
+  background: #334666;
+  color: white;
+}
