@@ -8,16 +8,16 @@ const FirstBannerComp = () => {
       <NavbarComponent></NavbarComponent>
       <div className="container checkin-container">
         <div>
-          <h1 className="main-title1 mb-5">Enjoy the gentle breeze on the Yodha lake</h1>
+          <h1 className="main-title1 mb-5">Enjoy the gentle Breeze on the Yodha lake</h1>
           <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-3">
-              <input type="date" className="form-control me-5 mb-4" placeholder="Check In : &nbsp; " />
+            <div className="col-sm-12 col-md-12 col-lg-3" >
+              <input type="date" className="form-control me-0 me-md-5 mb-4" placeholder="Check In : &nbsp; " />
             </div>
             <div className="col-sm-12 col-md-12 col-lg-3">
-              <input type="date" className="form-control me-5 mb-4" placeholder="Check out : &nbsp; " />
+              <input type="date" className="form-control me-0 me-md-5 mb-4" placeholder="Check out : &nbsp; " />
             </div>
             <div className="col-sm-12 col-md-12 col-lg-3">
-              <Form.Select aria-label="Default select example" style={{  marginRight: "100px" }} className="mb-4">
+              <Form.Select aria-label="Default select example" style={{  marginRight: "100px" }} className=" me-0 me-md-5 mb-4">
                 <option>Persons</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
